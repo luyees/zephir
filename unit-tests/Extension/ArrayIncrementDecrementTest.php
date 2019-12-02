@@ -18,6 +18,7 @@ class ArrayIncrementDecrementTest extends TestCase
 {
     /**
      * @test
+     *
      * @see https://github.com/phalcon/zephir/issues/2020
      */
     public function shouldIncrementArrayValues()
@@ -28,6 +29,7 @@ class ArrayIncrementDecrementTest extends TestCase
 
     /**
      * @test
+     *
      * @see https://github.com/phalcon/zephir/issues/2020
      */
     public function shouldDecrementArrayValues()
